@@ -27,3 +27,9 @@ print("The area of the circle is :", pi *radius*radius)
 length = int(input("Enter the length of rectangle: "))
 width =  int(input("Enter the width of the rectangle: "))
 print("The area of rectangle is: ",length*width)
+
+
+celsius = int(input("Enter the temperature in celsius: "))
+
+fahrenheit = (celsius*9/5) + 32
+print("The temperature in fahrenheit is : ",fahrenheit)
