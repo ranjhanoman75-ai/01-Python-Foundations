@@ -3,3 +3,15 @@ def add(a,b):
 add(10,20)
 result = add(10,20)
 print(result)
+
+
+
+age = 22
+print("Age: " + str(age))
+print(type(age))
+
+
+
+
+
+
