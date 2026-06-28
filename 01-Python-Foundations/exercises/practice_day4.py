@@ -26,9 +26,29 @@ for i in range(1,101):
     print(f"The sum of first 100 numbers is: {sum}")
 
 
-num = int(input("Enter a number:"))
 for i in range(1,101):
     if i%5==0:
         print("The numbers that are divisible by 5",i)
     else: 
         print("The numbers that are not divisible by 5 ",i)
+
+
+
+
+
+for i in range (6,0,-1):
+    for j in range(i):
+        print("*",end="")
+    print()
+
+
+
+for i in range(1,6):          # Rows
+
+    for j in range(5-i):      # Spaces
+        print(" ", end="")
+
+    for k in range(2 * i - 1):      # Stars
+        print("*",end="")
+
+    print()
