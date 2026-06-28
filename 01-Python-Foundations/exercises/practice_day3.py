@@ -78,3 +78,47 @@ elif num2>=num1 and num2>=num3:
 else: 
     print("The largest number is:",num3 )
 
+
+
+print("=====program 9=======")
+
+
+balance = 1000
+
+print("Current Balance:", balance)
+
+print("\n1. Deposit")
+print("2. Withdraw")
+
+choice = int(input("Enter your choice: "))
+
+
+def deposit(deposit_amount):
+    global balance
+    balance += deposit_amount
+    print("Amount deposited successfully.")
+    print("Now your balance is:", balance)
+
+
+def withdraw(withdraw_amount):
+    global balance
+
+    if withdraw_amount > balance:
+        print("Insufficient Balance.")
+
+    else:
+        balance -= withdraw_amount
+        print("Amount withdrawn successfully.")
+        print("Now your balance is:", balance)
+
+
+if choice == 1:
+    deposit_amount = int(input("Enter the amount you want to deposit: "))
+    deposit(deposit_amount)
+
+elif choice == 2:
+    withdraw_amount = int(input("Enter the amount you want to withdraw: "))
+    withdraw(withdraw_amount)
+
+else:
+    print("Invalid Choice.")
