@@ -89,3 +89,54 @@ After completing Day 2, I can:
 * Perform calculations using user input
 * Understand type casting
 * Create simple console applications
+
+  
+# Day 3 - Python Foundation
+
+## Overview
+
+This folder contains my Day 3 work for Python Foundations as part of my Agentic AI Engineer roadmap.
+
+## Topics Covered
+
+* Conditional Statements
+* if Statement
+* if-else Statement
+* if-elif-else Statement
+* Nested if
+* Comparison Operators
+* Logical Operators (and, or, not)
+* Decision Making in Python
+
+## Files
+
+* practice_day3.py
+
+## Programs Completed
+
+* Voting Eligibility Checker
+* Positive or Negative Number Checker
+* Even or Odd Number Checker
+* Largest of Two Numbers
+* Largest of Three Numbers
+* Grade Calculator
+* Password Checker
+* Leap Year Checker
+* Simple Login System
+* Divisibility Checker
+* ATM Deposit and Withdraw Program
+* Eligibility Checker Mini Project
+
+## Learning Outcome
+
+After completing Day 3, I can:
+
+* Make decisions using conditional statements
+* Use comparison and logical operators
+* Write programs with multiple conditions
+* Build simple real-world applications using if, elif, and else
+* Create basic menu-driven programs
+
+## Git Commit
+
+Complete Python Foundation Day 3
