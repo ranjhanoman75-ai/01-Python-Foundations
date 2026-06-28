@@ -140,3 +140,64 @@ After completing Day 3, I can:
 ## Git Commit
 
 Complete Python Foundation Day 3
+
+
+
+# Day 4 - Python Foundation
+
+## Overview
+
+This folder contains my Day 4 work for Python Foundations as part of my Agentic AI Engineer roadmap.
+
+## Topics Covered
+
+- Introduction to Loops
+- while Loop
+- for Loop
+- range() Function
+- Nested Loops
+- break Statement
+- continue Statement
+- pass Statement
+- Pattern Printing
+
+## Files
+
+
+- practice_day4.py
+
+## Programs Completed
+
+- Print Numbers from 1 to 10 using while Loop
+- Print Numbers from 10 to 1 using while Loop
+- Print Numbers from 1 to 20 using for Loop
+- Print Even Numbers from 1 to 100
+- Print Odd Numbers from 1 to 100
+- Multiplication Table Generator
+- Sum of Numbers from 1 to 100
+- Countdown from 100 to 1
+- Numbers Divisible by 5
+- Print Stars Based on User Input
+- Increasing Star Pattern
+- Decreasing Star Pattern
+- Right-Aligned Triangle Pattern
+- Reverse Right-Aligned Triangle Pattern
+- Pyramid Star Pattern
+- ATM Menu Mini Project
+
+## Learning Outcomes
+
+After completing Day 4, I can:
+
+- Use while loops
+- Use for loops
+- Work with the range() function
+- Control loops using break, continue, and pass
+- Create nested loops
+- Solve pattern printing problems
+- Build menu-driven programs using loops
+- Improve logical thinking and problem-solving skills
+
+## Git Commit
+
+Complete Python Foundation Day 4
