@@ -82,3 +82,18 @@ def factorial(n):
 num = int(input("Enter a number: "))
 result = factorial(num)
 print("The factorial of ", num ,"is: ", result)
+
+
+print("=======to count vowels in string==========")
+def count_vowels(text):
+    vowels = "aeiouAEIOU"
+    count = 0
+    for i in text:
+        if i in vowels:
+            count+=1
+    return count
+string = input("Enter a string: ")
+result = count_vowels(string)
+print("The count of vowels in this strings are: ",result)
+
+    
