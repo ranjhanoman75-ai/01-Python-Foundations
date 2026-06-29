@@ -81,3 +81,50 @@ print(text.startswith("Wel"))
 print(text.title())
 
 
+print("==========Palindrome checker========")
+text = input("Enter a string: ")
+reverse = ""
+for i in text:
+    reverse = i + reverse
+if text == reverse:
+    print("Palindrome ")
+else: 
+    print("Not palindrome ")
+
+
+
+
+print("========Counting vowels and consonants======")
+text =  input("Enter a string: ")
+vowels = 0
+consonants = 0
+for i in text.lower():
+    if i.isalpha():
+        if i in "aeiou":
+            vowels+=1
+        else:
+            consonants+=1
+print("Vowels are: ",vowels)
+print("Consonants are: ",consonants)
+
+
+
+print("=========Upper case and Lower case=========")
+text= input("Enter a string: ")
+upper = 0
+lower= 0
+for i in text:
+    if i.isupper():
+        upper+=1
+    elif i.islower():
+        lower+=1
+print("Upper case letters are: ",upper)
+print("Lower case letters are: ",lower)
+
+
+
+print("========Removing Extra Spaces==========")
+text = input("Enter a string: ")
+words = text.split()
+results = " ".join(words)
+print(results)
