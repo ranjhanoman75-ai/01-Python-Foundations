@@ -38,11 +38,47 @@ def cube(a):
 print(cube(4))
 #======================
 
-def check(num):
+def chek(num):
     if num > 0:
         print("The number is positive ")
     elif num <0:
         print("The number is negative ")
     else:
         print("The number is zero  ")
-print(check(0))
+print(chek(0))
+
+
+print("==========larger no.======")
+def largest_no():
+    num1 = int(input("Enter a number: "))
+    num2 = int(input("Enter the second number: "))
+    if num1>num2:
+        print("The largest number is: ",num1)
+    elif num2>num1:
+        print("The largest number is: ",num2)
+    else: 
+        print("Both are equals! ")
+
+print(largest_no())
+
+
+print("========Even or odd===========")
+
+def Even_odd():
+    num = int(input("Enter a number: "))
+    if num%2==0:
+        print("It is even number ")
+    else:
+        print("It is odd number ")
+
+print(Even_odd())
+
+print("======Factorial of number========")
+def factorial(n):
+    fact = 1
+    for i in range(1,n+1):
+        fact = fact*i
+    return fact
+num = int(input("Enter a number: "))
+result = factorial(num)
+print("The factorial of ", num ,"is: ", result)
