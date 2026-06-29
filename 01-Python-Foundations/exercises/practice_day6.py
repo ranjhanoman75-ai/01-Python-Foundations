@@ -45,7 +45,7 @@ def chek(num):
         print("The number is negative ")
     else:
         print("The number is zero  ")
-print(chek(0))
+chek(0)
 
 
 print("==========larger no.======")
@@ -59,7 +59,7 @@ def largest_no():
     else: 
         print("Both are equals! ")
 
-print(largest_no())
+largest_no()
 
 
 print("========Even or odd===========")
@@ -95,5 +95,35 @@ def count_vowels(text):
 string = input("Enter a string: ")
 result = count_vowels(string)
 print("The count of vowels in this strings are: ",result)
+
+print("=======Reversing a string========")
+def reverse_string(text):
+    reverse = ""
+    for i in text:
+        reverse = i+reverse
+    return reverse
+string= input("Enter a string: ")
+result = reverse_string(string)
+print("The reverse string is: ",result)
+
+
+print("=========To check whether it is palindrome========")
+def palindrome(text):
+    reverse =""
+    for i in text:
+        reverse = i+reverse
+
+    if text == reverse:
+            print("It is palindrome ")
+    else:
+            print("It is not palindrome ")
+string = input("Enter a string: ")
+result = palindrome(string)
+
+
+        
+        
+
+
 
     
