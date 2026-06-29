@@ -71,7 +71,7 @@ def Even_odd():
     else:
         print("It is odd number ")
 
-print(Even_odd())
+Even_odd()
 
 print("======Factorial of number========")
 def factorial(n):
@@ -119,6 +119,64 @@ def palindrome(text):
             print("It is not palindrome ")
 string = input("Enter a string: ")
 result = palindrome(string)
+
+
+
+print("================Calculator==========")
+
+    
+
+def addition():
+        num1 = int(input("Enter first number: "))
+        num2 = int(input("Enter second number: "))
+        result = num1 + num2
+        print("After addition: ",result)
+        
+
+def subtraction():
+        num1 = int(input("Enter first number: "))
+        num2 = int(input("Enter second number: "))
+        result = num1 - num2
+        print("After subtracting: ",result)
+        
+
+def multiplication():
+        num1 = int(input("Enter first number: "))
+        num2 = int(input("Enter second number: "))
+        result = num1 * num2
+        print("After Multiplying: ",result)
+    
+
+def division():
+        num1 = int(input("Enter first number: "))
+        num2 = int(input("Enter second number: "))
+        if num2 ==0:
+             print("Division by zero is not allowed ")
+        else:
+             result = num1 / num2
+             print("After division: ",result)
+def exit_program():
+     print("Thank you for using Calculator ")      
+while True:
+        print("1:Addition ")
+        print("2:Subtraction ")
+        print("3:Multiplication")
+        print("4:Division ")
+        print("5:Exit ")
+        choice = int(input("Enter your choice:(1-5) "))
+        if choice==1:
+             addition()
+        elif choice==2:
+             subtraction()
+        elif choice==3:
+             multiplication()
+        elif choice==4:
+             division()
+        elif choice==5:
+             exit_program()
+             break
+        else:
+             print("Invalide choice ")
 
 
         
