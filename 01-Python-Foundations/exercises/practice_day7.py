@@ -99,6 +99,27 @@ def largest_no(lst):
 item = [2,42,524,52]
 result = largest_no(item)
 print(result)
-            
 
-            
+print("=======Program 14 =========")
+def smallest_no(lst):
+    smallest = lst[0]
+    for i in lst:
+        if i <smallest:
+            smallest = i
+        
+    return smallest
+item = [2,5,634,633,1]
+result = smallest_no(item)
+print(result)
+
+print("=======Program 15 =========")         
+def add(lst):
+    sum = 0
+    for i in lst:
+        sum = sum+i
+
+    return sum
+    
+item = [2,4,2,52,53]
+result = add(item)
+print(result)
