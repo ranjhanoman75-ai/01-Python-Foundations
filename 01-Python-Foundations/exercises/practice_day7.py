@@ -47,3 +47,22 @@ def reverse_list(text):
 lists = ["Noman "," Bilal "]
 result = reverse_list(lists)
 print(result)
+
+print("=======Program 10 =========")
+def sort(lst):
+    n =  len(lst)
+    
+    for i in range(n):
+        for j in range(i+1,n):
+            if lst[i]>lst[j]:
+                lst[i],lst[j] = lst[j],lst[i]
+    return lst
+lists = [1,24,33,10,53,89]
+result = sort(lists)
+print(result)
+
+
+lst = [2,5,21,1,10,3]
+lst.sort()
+print(lst)
+            
