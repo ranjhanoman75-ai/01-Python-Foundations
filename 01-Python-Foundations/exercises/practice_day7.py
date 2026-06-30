@@ -9,3 +9,12 @@ items = [1,2,3,4,5]
 print(items[0])
 print(items[4])
 
+print("=======Program 3 =========")
+names = ["Ali","Bilal","Noman"]
+names[1] = "Mukurram"
+print(names)
+
+print("=======Program 4 =========")
+names = ["Noman","Ali"]
+names.append("Mukurram")
+print(names)
