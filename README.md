@@ -201,3 +201,84 @@ After completing Day 4, I can:
 ## Git Commit
 
 Complete Python Foundation Day 4
+# Day 5 - Strings
+
+## Topics Covered
+- Introduction to Strings
+- String Indexing
+- String Slicing
+- String Concatenation
+- String Iteration
+- String Methods
+  - upper()
+  - lower()
+  - title()
+  - capitalize()
+  - strip()
+  - replace()
+  - find()
+  - count()
+  - startswith()
+  - endswith()
+  - split()
+  - join()
+  - isalpha()
+  - isdigit()
+  - isalnum()
+- String Formatting
+
+## Practice Programs
+- Print a String
+- Find String Length
+- Reverse a String
+- Count Characters
+- Count Words
+- Convert to Uppercase
+- Convert to Lowercase
+- Replace Characters
+- Find a Character
+- Check Palindrome
+- Count Vowels
+- Count Consonants
+- Count Uppercase and Lowercase Letters
+- Remove Extra Spaces
+
+## Learning Outcome
+Today I learned how to work with strings, use string methods, manipulate text, and solve common string-based programming problems.
+
+# Day 6 - Functions
+
+## Topics Covered
+- Introduction to Functions
+- Defining Functions
+- Calling Functions
+- Function Parameters
+- Return Statement
+- Local and Global Variables
+- Function Scope
+- Code Reusability
+
+## Practice Programs
+- Addition Function
+- Subtraction Function
+- Multiplication Function
+- Division Function
+- Factorial using Function
+- Reverse String using Function
+- Palindrome Checker using Function
+- Count Vowels using Function
+- Count Uppercase and Lowercase Letters
+- Remove Extra Spaces using Function
+
+## Mini Project
+Calculator using Functions
+- Addition
+- Subtraction
+- Multiplication
+- Division
+- Division by Zero Handling
+- Menu Driven Program
+- Exit Option
+
+## Learning Outcome
+Today I learned how to create reusable functions, pass data through parameters, return values, organize code into multiple functions, and build a menu-driven calculator project.
