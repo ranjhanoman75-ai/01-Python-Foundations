@@ -65,4 +65,25 @@ print(result)
 lst = [2,5,21,1,10,3]
 lst.sort()
 print(lst)
+
+print("=======Program 11 =========")
+lists = [1,2,3,4,1,2]
+result =lists.count(1)
+print(lists)
+print(result)
+
+
+print("=======Program 12 =========")
+def search (item,fnd):
+    index = 0
+    for i in item:
+        if i == fnd:
+            return f"Item is found",{index}
+        index += 1
+    
+    return f"Not found"
+items = [2,5,53,532,535]
+found = int(input("Enter item to found: "))
+result = search(items,found)
+print(result)
             
