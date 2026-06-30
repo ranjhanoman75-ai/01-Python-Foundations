@@ -18,3 +18,13 @@ print("=======Program 4 =========")
 names = ["Noman","Ali"]
 names.append("Mukurram")
 print(names)
+
+print("=======Program 5 =========")
+data = ["noman",22,"Lahore"]
+data.insert(0,115)
+print(data)
+
+print("=======Program 6 =========")
+data = ["Saleem",67,"Lahore"]
+data.remove("Saleem")
+print(data)
