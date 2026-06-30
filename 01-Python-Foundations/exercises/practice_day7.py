@@ -123,3 +123,29 @@ def add(lst):
 item = [2,4,2,52,53]
 result = add(item)
 print(result)
+print("=======Program 16 =========")
+lists = [2,33,22,52]
+lists1 = []
+lists1=lists.copy()
+print(lists1)
+
+print("=======Program 17 =========")
+lists= [2,13,45,35,63]
+list1= [13,424,52,52]
+list2= []
+list2 = lists+ list1
+print(list2)
+print("=======Program 18 =========")
+def even(lst):
+    even = 0 
+    odd = 0
+    for i in Lists:
+        if i % 2==0:
+            even+=1
+        elif i%2!=0:
+            odd+=1
+    print("Even number counts are: ",even)
+    print("Odd numbers count are: ",odd)
+
+Lists = [2,52,52,5,7,9]
+result = even(Lists)
