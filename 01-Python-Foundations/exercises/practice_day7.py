@@ -86,4 +86,19 @@ items = [2,5,53,532,535]
 found = int(input("Enter item to found: "))
 result = search(items,found)
 print(result)
+
+print("=======Program 13 =========")
+def largest_no(lst):
+    largest = lst[0]
+    for i in lst:
+        if i > largest:
+            largest = i
+            
+    return largest
+        
+item = [2,42,524,52]
+result = largest_no(item)
+print(result)
+            
+
             
