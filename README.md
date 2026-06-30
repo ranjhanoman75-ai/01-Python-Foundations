@@ -282,3 +282,79 @@ Calculator using Functions
 
 ## Learning Outcome
 Today I learned how to create reusable functions, pass data through parameters, return values, organize code into multiple functions, and build a menu-driven calculator project.
+
+
+Day 7 - Python Lists and Student Management System
+Topics Covered
+Introduction to Lists
+Creating Lists
+Accessing List Elements
+Updating List Elements
+List Methods
+append()
+insert()
+remove()
+pop()
+count()
+copy()
+sort()
+Looping Through Lists
+Functions with Lists
+Searching in Lists
+Finding Largest and Smallest Elements
+Summing List Elements
+Reversing a List
+Merging Lists
+Counting Even and Odd Numbers
+Practice Programs
+Print List Elements
+Access List by Index
+Update List Element
+Append Element
+Insert Element
+Remove Element
+Pop Last Element
+Find List Length
+Reverse a List (Without Built-in Reverse)
+Sort a List (Manual Logic)
+Count Occurrences of an Element
+Search an Element in a List
+Find Largest Number
+Find Smallest Number
+Calculate Sum of List Elements
+Copy a List
+Merge Two Lists
+Count Even and Odd Numbers
+Mini Project
+Student Management System (CRUD)
+
+Features:
+
+Add Student
+Display Students
+Search Student
+Update Student
+Delete Student
+Exit Program
+Concepts Used
+Variables
+Lists
+Functions
+if-else Statements
+for Loops
+while Loop
+User Input
+CRUD Operations
+Searching Algorithms
+Menu-Driven Programming
+Learning Outcome
+
+After completing Day 7, I can:
+
+Work confidently with Python Lists.
+Create reusable functions.
+Build menu-driven console applications.
+Implement CRUD (Create, Read, Update, Delete) operations.
+Search, update, and delete records from a list.
+Organize code into multiple functions.
+Apply problem-solving skills to build complete beginner-level projects.
