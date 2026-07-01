@@ -139,7 +139,7 @@ print("=======Program 18 =========")
 def even(lst):
     even = 0 
     odd = 0
-    for i in Lists:
+    for i in lst:
         if i % 2==0:
             even+=1
         elif i%2!=0:
