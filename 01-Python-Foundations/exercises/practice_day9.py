@@ -23,8 +23,10 @@ else:
 print(student.keys())
 print(student.values())
 print(student.items())
-for key in student:
+for key in student:     #loop throught to print keys 
     print(key)
 
-for value in student.values():
+for value in student.values():    #loop through to print values 
     print(value)
+for key ,value in student.items():
+    print(key,value)
