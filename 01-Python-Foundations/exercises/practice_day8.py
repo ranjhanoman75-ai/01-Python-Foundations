@@ -28,3 +28,32 @@ if 21 in no:
     print("found")
 else:
     print("Not found")
+
+print("======program 6========")
+n = (12,42,42,52,53)
+print(n.index(42))
+print(n.count(42))
+
+print("======Program 7======")
+a =  ("Ali","Noman")
+b = ("Mukurram","Bilal")
+t= a+b
+print(t)
+for i in range(1,2):
+    print(t)
+
+print("=====program 8========")
+names = ("Ali",22,"Jhang" )
+print(names)
+
+name, age , city  = names
+print(name)
+print(age)
+print(city)
+
+print("========Program 9=======Mini challange=======")
+names =  ("Noman",24,"BSSE")
+name, age , Degree = names
+print("Name : ",name)
+print("Age : ", age)
+print("Degree: ", Degree)
