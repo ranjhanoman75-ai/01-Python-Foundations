@@ -21,3 +21,10 @@ else:
     print("Not found")
 
 print(student.keys())
+print(student.values())
+print(student.items())
+for key in student:
+    print(key)
+
+for value in student.values():
+    print(value)
