@@ -68,8 +68,20 @@ name = {"Noman", "Saima","Ali"}
 name.add("Bilal")
 for names in name:
     print(names)
+name.discard("baba")
+name.remove("Ali")
+name.pop()
+
+print(name)
 print(len(name))
-if "Baba" in name:
+if "Noman" in name:
     print("found")
 else:
     print("not found")
+
+
+print("=======program 2========")
+numbers = {1,2,4}
+number= {2,42,3}
+print(numbers|number)
+print(numbers.union(number))
