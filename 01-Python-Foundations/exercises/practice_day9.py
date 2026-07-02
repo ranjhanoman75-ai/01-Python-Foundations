@@ -30,3 +30,19 @@ for value in student.values():    #loop through to print values
     print(value)
 for key ,value in student.items():
     print(key,value)
+
+student2 = student.copy()
+print(student2)
+
+print("==========Nested Dictionary==========")
+student = {
+    "student1":{
+        "name": "noman",
+        "age": 22
+    },
+    "student2":{
+        "name": "ali",
+        "age ": 23
+    }
+}
+print(student["student2"]["name"])
