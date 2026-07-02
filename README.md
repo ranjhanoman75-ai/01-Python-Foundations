@@ -358,3 +358,185 @@ Implement CRUD (Create, Read, Update, Delete) operations.
 Search, update, and delete records from a list.
 Organize code into multiple functions.
 Apply problem-solving skills to build complete beginner-level projects.
+
+# Day 8 - Tuples & Sets
+
+## 📚 Topics Covered
+
+### Tuples
+- Introduction to Tuples
+- Creating Tuples
+- Tuple Packing & Unpacking
+- Accessing Elements
+- Tuple Slicing
+- Iterating Through Tuples
+- Tuple Methods
+  - count()
+  - index()
+- Tuple Concatenation
+- Tuple Repetition
+- Membership Operators
+- Tuple Length
+
+### Sets
+- Introduction to Sets
+- Creating Sets
+- Unique Values
+- add()
+- remove()
+- discard()
+- pop()
+- clear()
+- Membership Operators
+- Union
+- Intersection
+- Difference
+- Symmetric Difference
+- Subset
+- Superset
+- Frozen Sets
+- Removing Duplicates Using Sets
+
+---
+
+## 💻 Practice Programs
+
+Completed programs covering:
+
+- Tuple creation
+- Tuple unpacking
+- Tuple slicing
+- Tuple length
+- Looping through tuples
+- Membership checking
+- Tuple methods
+- Tuple concatenation
+- Tuple repetition
+- Mini Challenge using tuple unpacking
+
+Set programs covering:
+
+- Creating sets
+- Removing duplicate values
+- Adding elements
+- Removing elements
+- Membership checking
+- Union
+- Intersection
+- Difference
+- Symmetric Difference
+- Subset & Superset
+- Frozen Set
+- Removing duplicates from a list using sets
+
+---
+
+## 🎯 Learning Outcome
+
+After completing Day 8, I can:
+
+- Work confidently with Tuples.
+- Use Tuple packing and unpacking.
+- Understand immutable data structures.
+- Perform mathematical set operations.
+- Remove duplicate data efficiently.
+- Apply Sets in data cleaning and AI preprocessing.
+
+---
+
+## 🚀 GitHub Progress
+
+✔ Tuples Mastered
+
+✔ Sets Mastered
+
+✔ Practice Programs Completed
+
+✔ Mini Challenge Completed
+
+
+# Day 9 - Dictionaries
+
+## 📚 Topics Covered
+
+### Dictionaries
+- Introduction to Dictionaries
+- Key-Value Pairs
+- Creating Dictionaries
+- Accessing Values
+- get() Method
+- Adding New Keys
+- Updating Existing Values
+- Removing Keys
+  - pop()
+  - del
+  - clear()
+  - popitem()
+- Dictionary Length
+- Membership Operators
+- keys()
+- values()
+- items()
+- Looping Through Dictionaries
+- Copying Dictionaries
+- Nested Dictionaries
+
+---
+
+## 💻 Practice Programs
+
+Completed programs covering:
+
+- Creating dictionaries
+- Accessing values
+- Adding new keys
+- Updating values
+- Removing keys
+- Dictionary length
+- Membership testing
+- Printing keys
+- Printing values
+- Printing key-value pairs
+- Looping through dictionaries
+- Copying dictionaries
+- Nested dictionaries
+
+---
+
+## 🛠 Mini Project
+
+### Student Information Management System
+
+Features:
+
+- Display Student Information
+- Update Course
+- Add Email
+- Delete Course
+- Menu-Driven Interface
+- Continuous User Interaction using Loops
+
+---
+
+## 🎯 Learning Outcome
+
+After completing Day 9, I can:
+
+- Create and manage dictionaries.
+- Access, update, and delete dictionary data.
+- Iterate through keys and values.
+- Work with nested dictionaries.
+- Build menu-driven applications using dictionaries.
+- Understand why dictionaries are essential for FastAPI, APIs, JSON, LangChain, LangGraph, and AI Agents.
+
+---
+
+## 🚀 GitHub Progress
+
+✔ Dictionary Fundamentals Mastered
+
+✔ Nested Dictionaries Learned
+
+✔ Dictionary Methods Practiced
+
+✔ Student Dictionary Project Completed
