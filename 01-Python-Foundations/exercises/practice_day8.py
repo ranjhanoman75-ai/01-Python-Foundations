@@ -93,5 +93,22 @@ print(number.issuperset(numbers))
 print(numbers.isdisjoint(number))
 print(numbers.issuperset(number))
 
+print("=======Frozen set====")
+numbers = frozenset({1,2,4,4,5})
+print(numbers)
+
+
+
+product= [
+    "mouse",
+    "Keyboard",
+    "monitor",
+    "mouse",
+    "mouse",
+
+]
+product = list(set(product))
+print(product)
+
 
 
