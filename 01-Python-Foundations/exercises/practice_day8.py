@@ -57,3 +57,19 @@ name, age , Degree = names
 print("Name : ",name)
 print("Age : ", age)
 print("Degree: ", Degree)
+
+
+print("==========part 2 ===Sets===========")
+numbers = {1,2,2,42,53,53,53,2}
+print(numbers)
+
+
+name = {"Noman", "Saima","Ali"}
+name.add("Bilal")
+for names in name:
+    print(names)
+print(len(name))
+if "Baba" in name:
+    print("found")
+else:
+    print("not found")
