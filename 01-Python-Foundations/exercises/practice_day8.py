@@ -81,7 +81,17 @@ else:
 
 
 print("=======program 2========")
-numbers = {1,2,4}
-number= {2,42,3}
+numbers = {1,2}
+number= {1,2,4,5}
 print(numbers|number)
 print(numbers.union(number))
+print(numbers&number)
+print(numbers - number)
+print(numbers.symmetric_difference(number))
+print(numbers.issubset(number))
+print(number.issuperset(numbers))
+print(numbers.isdisjoint(number))
+print(numbers.issuperset(number))
+
+
+
