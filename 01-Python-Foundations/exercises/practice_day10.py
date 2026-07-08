@@ -31,13 +31,13 @@ try:
 except KeyError:
     print("Key does not exist")
 
-file = open("test.txt", "r")
+
 try:
-    file.read()
+    file = open("01-Python-Foundations/exercises/test.txt", "r")
+    print(file.read())
 except FileNotFoundError:
     print("File not found")
 finally:
-    file.close()
     print("File closed Successfully ")
 
 
@@ -55,3 +55,7 @@ try:
 
 except SalaryError as e:
     print(e)
+
+with open ("01-Python-Foundations/exercises/test.txt", "a") as file:
+    file.write("Hello Ai engineer\n")
+    file.write("Noman is a professional Ai engineer\n")
