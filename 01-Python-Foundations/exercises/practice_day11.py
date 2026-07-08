@@ -26,3 +26,5 @@ import os
 print(os.getcwd())
 print(os.listdir())
 print(os.path.exists("01-Python-Foundations/exercises/student_record.txt"))
+
+print(os.rmdir("project"))
