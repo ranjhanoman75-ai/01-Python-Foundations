@@ -56,6 +56,7 @@ try:
 except SalaryError as e:
     print(e)
 
+print("========file write=====")
 with open ("01-Python-Foundations/exercises/test.txt", "a") as file:
     file.write("Hello Ai engineer\n")
     file.write("Noman is a professional Ai engineer\n")
