@@ -23,7 +23,7 @@ print(len(numbers))
 print("========program 5========")
 no = (23,53,52,67)
 for n in no:
-    print(no)
+    print(n)
 if 21 in no:
     print("found")
 else:
@@ -39,8 +39,6 @@ a =  ("Ali","Noman")
 b = ("Mukurram","Bilal")
 t= a+b
 print(t)
-for i in range(1,2):
-    print(t)
 
 print("=====program 8========")
 names = ("Ali",22,"Jhang" )

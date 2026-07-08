@@ -15,7 +15,7 @@ print(student)
 del student["course"]
 print(student)
 print(len(student))
-if "age" in student:
+if "Age" in student:
     print("found")
 else:
     print("Not found")
@@ -42,7 +42,7 @@ student = {
     },
     "student2":{
         "name": "ali",
-        "age ": 23
+        "age": 23
     }
 }
 print(student["student2"]["name"])
@@ -66,7 +66,10 @@ while True:
 
     choice = int(input("Enter your choice: (1-5) "))
     if choice == 1:
-        print(student)
+        print("Name :", student["name"])
+        print("Age :", student["Age"])
+        print("Course :", student["Course"])
+        print("RollNo :", student["RollNo"])
     elif choice == 2:
         course = input("Enter the new course:")
         student["Course"]= course
@@ -78,6 +81,10 @@ while True:
     elif choice == 4:
         student.pop("Course")
         print("Course deleted successfully!")
+        if course in student:
+            student.pop("Course")
+        else: 
+            print("Course already deleted! ")
     elif choice == 5:
         print("Thank you for using this program! ")
         break 
