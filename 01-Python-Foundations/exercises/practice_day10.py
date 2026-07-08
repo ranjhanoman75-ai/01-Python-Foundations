@@ -40,3 +40,18 @@ finally:
     file.close()
     print("File closed Successfully ")
 
+
+print("====== Custom Exception ======")
+
+class SalaryError(Exception):
+    def __init__(self, salary):
+        super().__init__(f"Salary too low: {salary}")
+
+salary = 12000
+
+try:
+    if salary < 25000:
+        raise SalaryError(salary)
+
+except SalaryError as e:
+    print(e)
