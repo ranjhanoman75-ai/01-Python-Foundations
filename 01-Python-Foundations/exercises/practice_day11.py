@@ -27,4 +27,21 @@ print(os.getcwd())
 print(os.listdir())
 print(os.path.exists("01-Python-Foundations/exercises/student_record.txt"))
 
-print(os.rmdir("project"))
+
+
+
+
+names = ["Noman", "Ali ", "Saima"]
+import random
+print(random.choice(names))
+
+import datetime
+now = datetime.datetime.now()
+print(now)
+
+with open("01-Python-Foundations/exercises/student_record.txt", "a") as file:
+    save = random.choice(names)
+    file.write(save+"\n")
+
+with open ("01-Python-Foundations/exercises/student_record.txt", "r") as file:
+    print(file.read())

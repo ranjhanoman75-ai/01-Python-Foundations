@@ -1,10 +1,13 @@
-a= 15
-b = 4
-print(a/b)
-print(a//b)
-print(a%b)
-print(a**b)
+a = int(input("Enter a number: "))
+b = int(input("Enter second number: "))
+divide = a/b
+print(divide)
+subtract = a-b
+print(subtract)
+Modulus= a%b
+print(Modulus)
+add = a+b
+print(add)
 
 
-Data = "Hello Noman, Welcome to python."
-print(Data)
+
