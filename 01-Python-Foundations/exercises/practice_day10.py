@@ -30,3 +30,13 @@ try:
     print(marks["Noman"])
 except KeyError:
     print("Key does not exist")
+
+file = open("test.txt", "r")
+try:
+    file.read()
+except FileNotFoundError:
+    print("File not found")
+finally:
+    file.close()
+    print("File closed Successfully ")
+
