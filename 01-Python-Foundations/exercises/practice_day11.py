@@ -30,7 +30,7 @@ print(os.path.exists("01-Python-Foundations/exercises/student_record.txt"))
 
 
 
-
+print("==========Mini project=======")
 names = ["Noman", "Ali ", "Saima"]
 import random
 print(random.choice(names))
@@ -45,3 +45,6 @@ with open("01-Python-Foundations/exercises/student_record.txt", "a") as file:
 
 with open ("01-Python-Foundations/exercises/student_record.txt", "r") as file:
     print(file.read())
+
+import calculator
+print(calculator.add(4,5))

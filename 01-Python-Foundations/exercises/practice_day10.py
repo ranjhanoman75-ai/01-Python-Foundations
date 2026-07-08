@@ -57,6 +57,36 @@ except SalaryError as e:
     print(e)
 
 print("========file write=====")
+with open ("01-Python-Foundations/exercises/test.txt", "r") as file:
+    print(file.read())
+
 with open ("01-Python-Foundations/exercises/test.txt", "a") as file:
     file.write("Hello Ai engineer\n")
     file.write("Noman is a professional Ai engineer\n")
+
+
+
+
+
+while True:
+    print("1: Add student Record: ")
+    print("2: Display Student Record: ")
+    print("3:Exit program: ")
+    choice = int(input("Enter your choice: (1-3)"))
+    if choice == 1:
+        with open ("01-Python-Foundations/exercises/student_record.txt", "a") as file:
+            name = input("Enter your name: ")
+            age = int(input("Enter your age: "))
+            course = input("Enter your course: ")
+            file.write(f"Name: {name}, Age: {age}, Course: {course}\n")
+            print("Record added successfully!")
+    elif choice == 2:
+        with open ("01-Python-Foundations/exercises/student_record.txt", "r") as file:
+            print(file.read())
+    elif choice == 3: 
+        print("Thank you for using this program!")
+        break 
+    else:
+        print("Invalid choice! please enter choice (1-3)")
+        break
+
