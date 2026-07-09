@@ -30,3 +30,11 @@ def calc(a,b):
 addition, subtraction = calc(2,4)
 print(addition)
 print(subtraction)
+
+print("=========function calling another function=========")
+def square(number):
+    return number*number
+def show_square(number):
+    result = square(number)
+    print(result)
+show_square(4)
