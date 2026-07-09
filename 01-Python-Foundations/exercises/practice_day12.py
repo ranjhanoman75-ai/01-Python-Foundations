@@ -33,7 +33,7 @@ print(subtraction)
 
 print("=========function calling another function=========")
 def square(number):
-    return number*number
+    return number**number
 def show_square(number):
     result = square(number)
     print(result)
@@ -86,7 +86,8 @@ def display_result():
     student_grade = grade(percent)
 
     print("\n----- Result -----")
-    print("Marks:", marks)
+    for i, mark in enumerate(marks, start=1):
+        print(f"Subject {i} marks: {mark}")
     print("Total Marks:", total)
     print(f"Percentage: {percent:.2f}%")
     print("Grade:", student_grade)
