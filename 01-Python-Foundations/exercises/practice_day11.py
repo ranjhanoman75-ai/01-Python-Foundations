@@ -35,13 +35,19 @@ names = ["Noman", "Ali ", "Saima"]
 import random
 print(random.choice(names))
 
+random.shuffle(names)
+print(names)
+
 import datetime
 now = datetime.datetime.now()
 print(now)
 
+winner = random.choice(names)
+
+print("Winner:", winner)
+
 with open("01-Python-Foundations/exercises/student_record.txt", "a") as file:
-    save = random.choice(names)
-    file.write(save+"\n")
+    file.write(winner + "\n")
 
 with open ("01-Python-Foundations/exercises/student_record.txt", "r") as file:
     print(file.read())
