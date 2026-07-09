@@ -21,3 +21,12 @@ info()
 def exponent(number,exponent=2):
     return number*exponent
 print(exponent(3))
+
+def calc(a,b):
+    add = a+b
+    sub = a-b
+    
+    return add ,sub
+addition, subtraction = calc(2,4)
+print(addition)
+print(subtraction)
