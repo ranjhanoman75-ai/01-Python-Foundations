@@ -38,3 +38,10 @@ def show_square(number):
     result = square(number)
     print(result)
 show_square(4)
+
+def add(a,b):
+    """
+    Returns the sum of two numbers.
+    """
+    return a + b
+print(add.__doc__)
