@@ -115,3 +115,24 @@ def show():
     count += 1
 show()
 print(count)
+
+def outer():
+    print("outer ")
+    def inner():
+        print("inner")
+    inner()
+outer()
+
+print("========Employee details using **kwargs=====")
+def employee_info(**data):
+    print(data)
+    for key , value in data.items():
+        print(key, value)
+employee_info(name = "Noman ", age = 22, Salary = 25000)
+
+print("=====Student profile===========")
+def student_profile(**data):
+    print(data)
+    for key , value in data.items():
+        print(key, value)
+employee_info(name = "BABA ", age = 22, Course_Fee = 35000)
