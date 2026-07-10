@@ -42,5 +42,29 @@ def info(**data):
 info(name="Noman", age = 22)
 
 
+print("========Lambda Function=========")
+print("Normal Function")
+def square(x):
+    return x*x
+print(square(5))
+
+print("====Lambda Function====")
+Square = lambda x: x*x
+print(Square(5))
+
+add = lambda a,b:a+b
+print(add(2,4))
+
+students = [
+    ("Ali",85),
+    ("Bilal",70),
+    ("Noman",95)
+]
+
+students.sort(key=lambda x:x[1])
+
+print(students)
+
+
 
     
