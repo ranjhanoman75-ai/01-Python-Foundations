@@ -540,3 +540,141 @@ After completing Day 9, I can:
 ✔ Dictionary Methods Practiced
 
 ✔ Student Dictionary Project Completed
+
+# Day 10 - File Handling & Exception Handling
+
+## Topics Covered
+- Opening files using open()
+- File modes (r, w, a)
+- Reading file contents
+- Writing and appending data to files
+- Using the with statement
+- Exception handling with try, except, finally
+- Handling common exceptions:
+  - ValueError
+  - ZeroDivisionError
+  - IndexError
+  - KeyError
+  - FileNotFoundError
+- Creating and using custom exceptions
+
+## Practice Programs
+- File read and write operations
+- Student record file management
+- Exception handling examples
+- Custom SalaryError exception
+
+## Mini Project
+- Student Record Management using text files
+- Add student records
+- Display student records
+
+## Skills Learned
+- Safe file handling
+- Data persistence
+- Error handling
+- Writing robust Python programs
+
+# Day 11 - Modules & Python Standard Library
+
+## Topics Covered
+- What are Python modules?
+- Creating custom modules
+- Importing modules
+- import
+- from ... import
+- import ... as
+- __name__ == "__main__"
+- Introduction to packages
+
+## Python Standard Library
+- math module
+- random module
+- datetime module
+- os module
+
+## Practice Programs
+- Calculator module
+- Random number generator
+- Lucky draw system
+- Date and time operations
+- File system operations
+
+## Skills Learned
+- Code reusability
+- Modular programming
+- Working with Python's built-in libraries
+
+# Day 12 - Advanced Functions (Part 1)
+
+## Topics Covered
+- Function parameters and arguments
+- Positional arguments
+- Keyword arguments
+- Default arguments
+- Returning multiple values
+- Functions calling other functions
+- Function documentation (Docstrings)
+
+## Practice Programs
+- Greeting function
+- Student information
+- Rectangle area calculator
+- Default argument examples
+- Exponent calculator
+- Multiple return values
+- Nested function calls
+- Docstring examples
+
+## Mini Project
+- Student Grade Calculator
+- Calculate total marks
+- Calculate percentage
+- Generate grades
+- Display final result
+
+## Skills Learned
+- Writing reusable functions
+- Modular programming
+- Clean function design
+- Code documentation
+
+# Day 13 - Advanced Functions (Part 2)
+
+## Topics Covered
+- Variable-length arguments (*args)
+- Keyword variable-length arguments (**kwargs)
+- Lambda functions
+- Recursive functions
+- Local variables
+- Global variables
+- global keyword
+- Nested functions
+
+## Practice Programs
+- Sum using *args
+- Largest number using *args
+- Student marks calculator
+- Employee information using **kwargs
+- Student profile using **kwargs
+- Lambda expressions
+- Sorting with lambda
+- Recursive countdown
+- Recursive factorial
+- Local and global variable examples
+- Nested function examples
+
+## Mini Project
+- Employee Payroll System
+- Salary calculation
+- Tax calculation
+- Gross salary
+- Net salary
+- Employee details
+
+## Skills Learned
+- Flexible function design
+- Functional programming basics
+- Recursive problem solving
+- Variable scope
+- Professional function architecture
