@@ -26,4 +26,10 @@ def student_info(name, *marks):
 result = student_info("Noman", 26, 45, 63)
 
 print("Sum of marks: ",result)
+
+print("=========**kwargs========")
+def info(**data):
+    print(data)
+
+info(name ="Noman", age = 22, Course = "Ai engineer")
     
