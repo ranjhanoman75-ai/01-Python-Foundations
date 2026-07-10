@@ -136,3 +136,49 @@ def student_profile(**data):
     for key , value in data.items():
         print(key, value)
 employee_info(name = "BABA ", age = 22, Course_Fee = 35000)
+
+
+
+print("==========Employee Payroll system===========")
+print("=========Mini Project=========")
+
+def calculate_salary(base_salary, *allowance):
+    gross_Salary = base_salary
+    for amount in allowance:
+        gross_Salary+=amount
+
+    return gross_Salary
+
+
+def calculate_tax(salary):
+    if salary >= 100000:
+        tax = salary * 0.15
+    elif salary >= 50000:
+        tax = salary * 0.10
+    else:
+        tax = salary * 0.5
+
+    return tax 
+
+name = input("Enter Employee Name: ")
+emp_id = input("Enter Employee ID: ")
+
+basic_salary = float(input("Enter Basic Salary: "))
+
+gross_salary = calculate_salary(
+    basic_salary,
+    5000,   
+    3000,   
+    2000    
+)
+
+tax = calculate_tax(gross_salary)
+net_salary = gross_salary - tax
+
+print("\n====== Employee Details ======")
+print("Employee Name :", name)
+print("Employee ID   :", emp_id)
+print("Gross Salary  :", gross_salary)
+print("Tax           :", tax)
+print("Net Salary    :", net_salary)
+
