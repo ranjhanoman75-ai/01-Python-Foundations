@@ -12,4 +12,18 @@ def add(*numbers):
 print(add(1,2,3))
 print(add(1,35,5,6))
 print(add(100,199))
+
+def student_info(name, *marks):
+    total = 0
+    print(name)
+    print(marks)
+    for i in marks:
+        total += i
+    
+    return total
+
+# call student_info and print the returned total
+result = student_info("Noman", 26, 45, 63)
+
+print("Sum of marks: ",result)
     
