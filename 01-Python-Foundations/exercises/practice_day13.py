@@ -30,6 +30,17 @@ print("Sum of marks: ",result)
 print("=========**kwargs========")
 def info(**data):
     print(data)
+    print(data["name"])
 
 info(name ="Noman", age = 22, Course = "Ai engineer")
+
+
+def info(**data):
+     
+    for key ,value in data.items():
+        print(key,value)
+info(name="Noman", age = 22)
+
+
+
     
