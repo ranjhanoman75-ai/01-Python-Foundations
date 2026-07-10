@@ -65,6 +65,19 @@ students.sort(key=lambda x:x[1])
 
 print(students)
 
+def info(*data):
+    if len(data) == 0:
+        return "No data found"
+    largest_num = data[0]
+    for num in data:
+        if num > largest_num:
+            largest_num = num
+        
+    return largest_num
+print(info(1,5,6,78,32))
+    
+
+
 
 
     
