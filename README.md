@@ -678,3 +678,83 @@ After completing Day 9, I can:
 - Recursive problem solving
 - Variable scope
 - Professional function architecture
+
+# Day 14 - Object-Oriented Programming (OOP) Part 1
+
+## Topics Covered
+- Introduction to Object-Oriented Programming (OOP)
+- Classes and Objects
+- Creating Classes
+- Creating Objects
+- Instance Attributes
+- Methods
+- Understanding the self keyword
+- Calling methods using objects
+- Calling methods using the ClassName.method(object) syntax
+
+## Practice Programs
+- Student class
+- Dog class
+- Laptop class
+- Book class
+- Employee class
+- Mobile class
+- Circle area calculator
+- Calculator using OOP
+
+## Mini Project
+- Student Report System (OOP Version)
+- Input student details
+- Store subject marks
+- Calculate total marks
+- Calculate percentage
+- Assign grade
+- Display complete student report
+
+## Skills Learned
+- Creating and using classes
+- Working with objects
+- Using attributes and methods
+- Understanding the purpose of self
+- Organizing programs using OOP principles
+
+# Day 15 - Object-Oriented Programming (Part 2)
+
+## Topics Covered
+- Constructors (__init__)
+- Automatic object initialization
+- Instance Variables
+- Class Variables
+- Difference between Instance Variables and Class Variables
+- __str__() method
+- __del__() Destructor
+- Object lifecycle
+- Professional class design
+
+## Practice Programs
+- Student class using constructor
+- Employee class
+- Car class
+- Book class
+- Laptop class with class variables
+- Circle class
+- Rectangle class
+- __str__() implementation
+- __del__() implementation
+- Employee class with shared company information
+
+## Mini Project
+- Employee Management System
+- Company as a class variable
+- Employee details using constructor
+- Bonus calculation
+- Tax calculation
+- Net salary calculation
+- Display complete employee information
+
+## Skills Learned
+- Initializing objects with constructors
+- Working with instance and class variables
+- Customizing object output using __str__()
+- Understanding destructors
+- Designing professional OOP-based applications
