@@ -18,3 +18,35 @@ class student:
         print(self.age)
 s = student("Noman ",22)
 s1 = student("Ali raza", 24)
+
+print("========Class Laptop===========")
+class laptop:
+    def __init__(self,brand,ram):
+        self.brand = brand
+        self.ram = ram
+    def display(self):
+        print(self.brand)
+        print(self.ram)
+hp = laptop("Hp",16)
+hp1 = laptop("Dell", 32)
+hp.display()
+hp1.display()
+
+class student:
+    university = "University of Sargodha"
+    def __init__(self,name,age,course):
+        self.name= name
+        self.age = age
+        self.course = course
+    def display(self):
+        print(self.name)
+        print(self.age)
+        print(self.course)
+s1 = student("Noman",22,"Agentic Ai")
+s2 = student("Ali Raza",23,"Ai engineer")
+print(s1.university)
+s1.display()
+print(s2.university)
+s2.display()   
+
+    
