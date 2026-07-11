@@ -156,7 +156,7 @@ def calculate_tax(salary):
     elif salary >= 50000:
         tax = salary * 0.10
     else:
-        tax = salary * 0.5
+        tax = salary * 0.05
 
     return tax 
 
