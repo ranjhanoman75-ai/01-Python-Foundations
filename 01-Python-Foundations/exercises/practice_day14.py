@@ -69,4 +69,17 @@ class circle:
 c1= circle()
 print(c1.area(12))
 
-        
+class calculator:
+    def add(self,a,b):
+        return a+b
+    def subtract(self,a,b):
+        return a-b
+    def multiply(self,a,b):
+        return a*b
+    def divide(self,a,b):
+        return a/b
+cal = calculator()
+print(cal.add(12,43))
+print(cal.subtract(144,24))
+print(cal.multiply(14,6))
+print(cal.divide(12,3))        
