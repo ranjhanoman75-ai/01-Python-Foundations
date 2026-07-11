@@ -35,3 +35,16 @@ hp = laptop()
 hp.brand  = "HP"
 hp.ram  = "16GB"
 hp.info()
+
+class Book:
+    def info(self,author_name ,title,price):
+        self.author_name = author_name
+        self.title = title
+        self.price = price
+    def show(self):
+        print("Author name is: ",self.author_name)
+        print("Title of Book is: ",self.title)
+        print("The price of book is: ",self.price)
+b1 = Book()
+b1.info("John Sen","Machine Learning",230)
+b1.show()
