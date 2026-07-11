@@ -55,4 +55,18 @@ class employee:
         print("Salary is: ",salary)
 emp1 = employee()
 emp1.show("Noman",150000)
+
+class mobile:
+    def display(self):
+        print("Mobile is: ",self.brand)
+mb1= mobile()
+mb1.brand = "vivoy31"
+mb1.display()
+
+class circle:
+    def area(self, r):
+        return 3.14*r*r
+c1= circle()
+print(c1.area(12))
+
         
