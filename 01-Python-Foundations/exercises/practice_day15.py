@@ -42,11 +42,23 @@ class student:
         print(self.name)
         print(self.age)
         print(self.course)
+    def __str__(self):
+        return f"Student Name: {self.name}"
 s1 = student("Noman",22,"Agentic Ai")
 s2 = student("Ali Raza",23,"Ai engineer")
 print(s1.university)
 s1.display()
+s2.university = "Fast University"
 print(s2.university)
 s2.display()   
+print(s1)
+print(s2)
+
+print("============Destructor============")
+class student:
+    def __del__(self):
+        print("Object Destroyed")
+s = student()
+del s
 
     
