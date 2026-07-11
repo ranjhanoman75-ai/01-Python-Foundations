@@ -48,3 +48,11 @@ class Book:
 b1 = Book()
 b1.info("John Sen","Machine Learning",230)
 b1.show()
+
+class employee:
+    def show(self ,name:str,salary:int):
+        print("Name is: ",name)
+        print("Salary is: ",salary)
+emp1 = employee()
+emp1.show("Noman",150000)
+        
