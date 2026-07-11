@@ -20,9 +20,18 @@ Dog.bark(dog1)
 
 class student:
     def show(self):
-        print(self)
+        print(self.name)
 
 std1 = student()
 std2 = student()
-std1.show()
+std2.name = "Noman"
 std2.show()
+
+class laptop:
+    def info(self):
+        print("Brand is: ",self.brand)
+        print("Ram is: ", self.ram)
+hp = laptop()
+hp.brand  = "HP"
+hp.ram  = "16GB"
+hp.info()
