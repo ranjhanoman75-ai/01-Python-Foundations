@@ -24,3 +24,18 @@ janwer = animal()
 janwer.sound()
 dg = dog()
 dg.sound()
+
+print("==========super()========")
+class animal:
+    def sound(self):
+        print("Animal sound")
+    def eat(self):
+        print("Animal eats")
+class son(animal):
+    def sound(self):
+        super().sound()
+        super().eat()
+        print("Bark")
+dg = son()
+dg.sound()
+
