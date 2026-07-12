@@ -12,3 +12,15 @@ dog = Dog()
 dog.eat()
 dog.bark()
 dog.sleep()
+
+print("=============Method Overriding==========")
+class animal:
+    def sound(self):
+        print("Animal sound")
+class dog(animal):
+    def sound(self):
+        print("Dog sound")
+janwer = animal()
+janwer.sound()
+dg = dog()
+dg.sound()
