@@ -39,3 +39,23 @@ class son(animal):
 dg = son()
 dg.sound()
 
+print("========constructor inheritence========")
+class animal:
+    def __init__(self,name):
+        self.name = name
+class dog(animal):
+    pass
+dg = dog("Tommy")
+print(dg.name)
+
+print("======Child Constructor======")
+class teacher:
+    def __init__(self,name):
+        self.name = name
+class student(teacher):
+    def __init__(self,name,course):
+        super().__init__(name)
+        self.course = course
+s1 = student("Noman","Agentic Ai")
+print(s1.name)
+print(s1.course)
