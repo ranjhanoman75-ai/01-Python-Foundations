@@ -68,3 +68,16 @@ class cat:
 animals = [dog(),cat()]
 for animl in animals:
     animl.sound()
+
+
+class Dog:
+    def speak(self):
+        print("Barking")
+class Human:
+    def speak(self):
+        print("Hello")
+def talk(obj):
+    obj.speak()
+
+talk(Dog())
+talk(Human())
