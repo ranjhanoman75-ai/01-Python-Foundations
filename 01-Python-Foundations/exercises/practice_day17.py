@@ -57,3 +57,14 @@ class C(A,B):
 c = C()
 c.show()
 print(C.__mro__)
+
+print("======Polymorphism=====")
+class dog:
+    def sound(self):
+        print("Barking")
+class cat:
+    def sound(self):
+        print("Meow")
+animals = [dog(),cat()]
+for animl in animals:
+    animl.sound()
