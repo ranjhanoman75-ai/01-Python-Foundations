@@ -13,7 +13,7 @@ class Employee:
         print(f"Salary        : {self.salary}")
 
     def __str__(self):
-        return f"Employee(Name={self.name}, ID={self.employee_id}, Salary={self.salary})"
+        return f"Employee Name={self.name}, ID={self.employee_id}, Salary={self.salary})"
 
 
 class Manager(Employee):
@@ -38,3 +38,5 @@ emp.display_info()
 print("-" * 40)
 manager = Manager("Ali", 23, 50000, "Finance", 4000)
 manager.display_info()
+
+print("============")
