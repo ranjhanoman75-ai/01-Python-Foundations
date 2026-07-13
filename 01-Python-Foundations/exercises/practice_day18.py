@@ -42,3 +42,29 @@ class student:
 s = student("Noman ",89)
 s.set_marks(12)
 print(s.get_marks())
+
+print("=========Bank balance========")
+class Bank:
+    def __init__(self,balance):
+        self.__balance = balance
+    def get_balance(self):
+        return self.__balance
+    def deposit(self,amount):
+        if amount>0 :
+            self.__balance +=amount
+            print("Amount deposited successfully")
+        else:
+            print("Invalid deposit amount")
+
+    def withdraw(self,amount):
+        print("Your current balance is :",self.__balance)
+        if amount > self.__balance:
+            self.__balance -= amount
+            print("Your remaining balance is: ",self.__balance)
+        else:
+            print("Invalid input amount")
+
+bank = Bank(4500)
+bank.deposit(500)
+print(bank.get_balance())
+            
