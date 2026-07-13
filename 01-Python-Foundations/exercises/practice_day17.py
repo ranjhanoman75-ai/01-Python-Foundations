@@ -69,7 +69,7 @@ animals = [dog(),cat()]
 for animl in animals:
     animl.sound()
 
-
+print("=========Duck Typing======")
 class Dog:
     def speak(self):
         print("Barking")
@@ -81,3 +81,14 @@ def talk(obj):
 
 talk(Dog())
 talk(Human())
+
+print("================Operator Overloading==========")
+class numbers:
+    def __init__(self ,value):
+        self.value = value
+    def __add__(self,other):
+        return self.value + other.value
+    
+a = numbers(10)
+b = numbers(20)
+print(a+b)
