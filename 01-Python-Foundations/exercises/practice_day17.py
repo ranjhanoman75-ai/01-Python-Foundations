@@ -44,3 +44,16 @@ dg = dog()
 dg.bark()
 ct = cat()
 ct.meow()
+
+print("========Method Resolution Order========")
+class A:
+    def show(self):
+        print("Class A")
+class B:
+    def show(self):
+        print("Class B")
+class C(A,B):
+    pass
+c = C()
+c.show()
+print(C.__mro__)
