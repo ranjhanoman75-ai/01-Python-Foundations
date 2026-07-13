@@ -12,3 +12,18 @@ class child(Father,Mother):
 ch = child()
 ch.skills()
 ch.talent()
+
+print("====Multilevel Inheritance=========")
+class Animal:
+    def eat(self):
+        print("Eating")
+class mammal(Animal):
+    def walk(self):
+        print("Walking")
+class dog(mammal):
+    def bark(self):
+        print("Barking")
+dg = dog()
+dg.eat()
+dg.walk()
+dg.bark()
