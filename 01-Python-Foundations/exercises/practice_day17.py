@@ -88,7 +88,6 @@ class numbers:
         self.value = value
     def __add__(self,other):
         return self.value + other.value
-    
 a = numbers(10)
 b = numbers(20)
 print(a+b)
