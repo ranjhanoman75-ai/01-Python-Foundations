@@ -67,4 +67,20 @@ class Bank:
 bank = Bank(4500)
 bank.deposit(500)
 print(bank.get_balance())
+
+print("======laptop class")
+class laptop:
+    def __init__(self,price):
+        self.__price = price
+    def get_price(self):
+        return self.__price
+    def set_price(self,price):
+        if price>=0:
+            self.__price = price
+        else:
+            print("Invalid price ")
+laptp = laptop(560)
+laptp.set_price(7000)
+print(laptp.get_price())
+        
             
