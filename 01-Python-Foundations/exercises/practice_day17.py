@@ -27,3 +27,20 @@ dg = dog()
 dg.eat()
 dg.walk()
 dg.bark()
+
+print("========Hiererchical inheritance=========")
+class animal:
+    def eat(self):
+        print("eating")
+class dog(animal):
+    def bark(self):
+        print("barking")
+class cat(animal):
+    def meow(self):
+        print("meow")
+an = animal()
+an.eat()
+dg = dog()
+dg.bark()
+ct = cat()
+ct.meow()
