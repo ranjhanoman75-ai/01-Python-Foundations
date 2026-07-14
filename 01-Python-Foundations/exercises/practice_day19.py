@@ -95,3 +95,56 @@ c = car()
 print("Speed before setting the speed: ", c.speed)
 c.speed = 200
 print("Speed after setting the speed: ", c.speed)
+
+print("========Employee Payroll Management System==========")
+class Employee:
+    def __init__(self, name, salary, department):
+        self.__name = name
+        self.__salary = salary
+        self.__department = department
+    @property
+    def name(self):
+        return self.__name
+
+    @name.setter
+    def name(self, value):
+        if value.strip() == "":
+            print("Name should not be empty")
+        else:
+            self.__name = value
+    @property
+    def salary(self):
+        return self.__salary
+
+    @salary.setter
+    def salary(self, new_salary):
+        if new_salary >= 25000:
+            self.__salary = new_salary
+        else:
+            print("Invalid Salary")
+    @property
+    def department(self):
+        return self.__department
+
+    @department.setter
+    def department(self, value):
+        if value.strip() == "":
+            print("Department cannot be empty")
+        else:
+            self.__department = value
+    def display_info(self):
+        print("Name      :", self.name)
+        print("Salary    :", self.salary)
+        print("Department:", self.department)
+
+
+emp = Employee("Noman", 36000, "Finance")
+
+emp.display_info()
+
+print()
+
+emp.salary = 45000
+emp.department = "IT"
+
+emp.display_info()
