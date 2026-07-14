@@ -77,3 +77,21 @@ class circle:
         return self.__radius*2*3.14
 c = circle(4)
 print(c.calculate_area)
+
+class car:
+    def __init__(self):
+        self.__speed = 180
+    @property
+    def speed(self):
+        return self.__speed
+    @speed.setter
+    def speed(self,new_Speed):
+        if new_Speed >250:
+            print("invalid speed")
+        else:
+            self.__speed = new_Speed
+            print("Speed set successfully")
+c = car()
+print("Speed before setting the speed: ", c.speed)
+c.speed = 200
+print("Speed after setting the speed: ", c.speed)
