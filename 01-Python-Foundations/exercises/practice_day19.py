@@ -66,4 +66,14 @@ class Bank:
 b = Bank()
 print("Your current balance is: ", b.balance)
 b.balance = 4000
-print("Amount after deposit: ", b.balance)
+print("Balance after deposit: ", b.balance)
+
+
+class circle:
+    def __init__(self,radius):
+        self.__radius = radius
+    @property
+    def calculate_area(self):
+        return self.__radius*2*3.14
+c = circle(4)
+print(c.calculate_area)
