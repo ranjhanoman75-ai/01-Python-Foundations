@@ -48,4 +48,22 @@ class employee:
 emp = employee()
 emp.salary = 45000
 print(emp.salary)
-        
+
+class Bank:
+    def __init__(self):
+        self.__balance= 3000
+    @property
+    def balance(self):
+        return self.__balance
+    @balance.setter
+    def balance(self,new_amount):
+        if new_amount >0:
+            self.__balance += new_amount
+            print("Amount that you want to deposit: ",new_amount)
+            print("Amount deposited successfully")
+        else:
+            print("Invalid amount")
+b = Bank()
+print("Your current balance is: ", b.balance)
+b.balance = 4000
+print("Amount after deposit: ", b.balance)
