@@ -758,3 +758,120 @@ After completing Day 9, I can:
 - Customizing object output using __str__()
 - Understanding destructors
 - Designing professional OOP-based applications
+
+# 📅 Day 16 – Inheritance in Python
+
+## 📖 Topics Covered
+- Introduction to Inheritance
+- Parent Class
+- Child Class
+- Constructor Inheritance
+- `super()` Function
+- Method Overriding
+- Extending Parent Class Methods
+
+## 💻 Practice Programs
+- Basic Parent & Child Class
+- Animal → Dog Inheritance
+- Employee → Manager Example
+- Constructor Inheritance
+- Method Overriding Examples
+- Salary Calculation using Inheritance
+
+## 🚀 Mini Project
+### Company Employee Management System
+
+Features:
+- Employee Parent Class
+- Manager Child Class
+- Constructor Inheritance
+- Method Overriding
+- Gross Salary Calculation
+- Employee Information Display
+
+## 📚 Key Learnings
+- Reusing code through inheritance.
+- Calling parent constructors using `super()`.
+- Overriding parent methods.
+- Building class hierarchies using OOP.
+
+# 📅 Day 17 – Advanced Inheritance & Polymorphism
+
+## 📖 Topics Covered
+- Multiple Inheritance
+- Multilevel Inheritance
+- Hierarchical Inheritance
+- Method Resolution Order (MRO)
+- Polymorphism
+- Duck Typing
+- Operator Overloading
+- Magic Methods (`__add__`, `__gt__`, `__eq__`, `__str__`)
+
+## 💻 Practice Programs
+- Multiple Inheritance Examples
+- Multilevel Inheritance Examples
+- Hierarchical Inheritance Examples
+- MRO Demonstrations
+- Duck Typing Programs
+- Operator Overloading Examples
+- Rectangle Area Comparison
+- Student Marks Comparison
+- Book Price Addition
+
+## 🚀 Mini Project
+### University Management System
+
+Features:
+- Person Class
+- Academic Class
+- Student Class
+- Multiple Inheritance
+- Fee Calculation
+- Student Information Display
+- Method Resolution Order
+
+## 📚 Key Learnings
+- Understanding different inheritance models.
+- Working with multiple parent classes.
+- Python's Method Resolution Order (MRO).
+- Applying polymorphism and duck typing.
+- Customizing operators using magic methods.
+
+# 📅 Day 18 – Encapsulation
+
+## 📖 Topics Covered
+- Encapsulation
+- Public Members
+- Protected Members
+- Private Members
+- Name Mangling
+- Getter Methods
+- Setter Methods
+- Data Hiding
+- Validation using Setter Methods
+
+## 💻 Practice Programs
+- Student Marks System
+- Employee Salary System
+- Teacher Information System
+- Car Protected Member Example
+- Laptop Price Validation
+- Hospital Patient Records
+- Library Book Management
+
+## 🚀 Mini Project
+### Bank Account Management System
+
+Features:
+- Private Account Information
+- Deposit Function
+- Withdraw Function
+- Balance Checking
+- Input Validation
+- Menu Driven Program
+
+## 📚 Key Learnings
+- Protecting sensitive data using private variables.
+- Controlling access through getter and setter methods.
+- Validating user input before modifying object data.
+- Implementing secure class design following OOP principles.
