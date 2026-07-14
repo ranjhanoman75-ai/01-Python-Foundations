@@ -32,3 +32,20 @@ class student:
 s = student()
 s.marks = 89
 print(s.marks)
+
+class employee:
+    def __init__(self):
+        self.__salary = 23000
+    @property
+    def salary(self):
+        return self.__salary
+    @salary.setter
+    def salary(self,new_Salary):
+        if new_Salary>15000:
+            self.__salary = new_Salary
+        else:
+            print("Invalid salary")
+emp = employee()
+emp.salary = 45000
+print(emp.salary)
+        
