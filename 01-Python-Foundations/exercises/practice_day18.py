@@ -81,6 +81,4 @@ class laptop:
             print("Invalid price ")
 laptp = laptop(560)
 laptp.set_price(7000)
-print(laptp.get_price())
-        
-            
+print(laptp.get_price())    
