@@ -157,3 +157,40 @@ print("=========Triangle Area==============")
 triangle = Triangle()
 print("Area of Triangle: ", triangle.area(4,6))
 triangle.perimeter(4,6,7)
+print("=======Employee Classs===========")
+class Employee(ABC):
+    def __init__(self,name,salary):
+        self.name = name
+        self.salary = salary
+    def display_info(self):
+        print("Name of employee: ", self.name )
+        print("Salary of Employee: " , self.salary)
+    @abstractmethod
+    def calculate_salary(self):
+        pass
+class Manager(Employee):
+    def display_info(self):
+        print("Name of employee:" , self.name)
+        print("Salary of Employee: " , self.salary)
+        
+    def calculate_salary(self,bonus):
+        return self.salary + bonus
+class Developer(Employee):
+    def calculate_salary(self,overtime):
+        return self.salary+overtime
+class Intern(Employee):
+    def calculate_salary(self):
+        return self.salary
+print("=========Manager info=========")
+manager =Manager("Noman",56000)
+print("Total manager salary with bonus:  ",manager.calculate_salary(7000))
+manager.display_info()
+print("========Developer info==========")
+developer = Developer("Ali ", 45000)
+print("The total salary of developer with overtime: ",developer.calculate_salary(6000))
+developer.display_info()     
+intern = Intern("Mukurram", 55000)
+print("The salary of intern is fixed: ",intern.calculate_salary())
+intern.display_info()   
+        
+        
