@@ -101,7 +101,7 @@ class SMS(Notification):
         print("Sms received ")
 class Whatsapp(Notification):
     def notification_info(self):
-        print("SMS notification.....")
+        print("Whatsapp notification.....")
     def send(self):
         print("Sending whatsapp message....")
     def receive(self):
@@ -121,3 +121,39 @@ whatsapp = Whatsapp()
 whatsapp.notification_info()
 whatsapp.send()
 whatsapp.receive()
+
+print("========4 program=========")
+class Shape(ABC):
+    @abstractmethod
+    def area(self):
+        pass
+    def perimeter(self):
+        pass
+class Recatangle(Shape):
+    def area(self,length,width):
+        return length*width
+    def perimeter(self,length,width):
+        return 2*length*width
+class Circle(Shape):
+    def area(self,r):
+        return 3.14 *r*r
+    def perimeter(self,r):
+        return 3.14*r
+class Triangle(Shape):
+    def area(self,base,heigth):
+        return (1/2*base*heigth)
+    def perimeter(self,left,right,bottom):
+        total = left+right+bottom
+        print("The perimeter of Triangle: ",total)
+print("=======Rectagle Area=======")
+rectangle = Recatangle()
+print("The area of Rectangle: ",rectangle.area(4,5))
+print("The perimter of rectangle: ",rectangle.perimeter(4,5))
+print("======Circle Area=========")
+circle = Circle()
+print("The area of circle: ",circle.area(4))
+print("The perimeter of circle: ",circle.perimeter(4))
+print("=========Triangle Area==============")
+triangle = Triangle()
+print("Area of Triangle: ", triangle.area(4,6))
+triangle.perimeter(4,6,7)
