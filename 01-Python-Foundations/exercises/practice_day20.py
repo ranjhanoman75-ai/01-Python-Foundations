@@ -9,6 +9,11 @@ class Animal(ABC):
 class dog(Animal):
     def sound(self):
         print("Dog is barking")
+class Cat(Animal):
+    def sound(self):
+        print("Cat meows")
 dg = dog()
 dg.eat()
 dg.sound()
+cat = Cat()
+cat.sound()
