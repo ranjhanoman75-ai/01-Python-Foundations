@@ -25,3 +25,14 @@ while True:
         print(Num)
     except StopIteration:
         break
+
+print("===========Program 3===============")
+string = "Noman Ali"
+iterator = iter(string)
+print(iterator)
+while True:
+    try:
+        str = next(iterator)
+        print(str)
+    except StopIteration:
+        break
