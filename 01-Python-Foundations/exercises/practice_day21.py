@@ -90,7 +90,7 @@ for i in counter:
 print("============ 2 Custom iterator============")
 class Counter:
     def __init__(self):
-        self.current =1
+        self.current = 10
     def __iter__(self):
         return self
     def __next__(self):
@@ -104,3 +104,25 @@ class Counter:
 counter = Counter()
 for i in counter:
     print(i)
+
+class LetterIterator:
+
+    def __init__(self):
+        self.letters = ["A", "B", "C", "D", "E"]
+        self.index = 0
+
+    def __iter__(self):
+        return self
+
+    def __next__(self):
+
+        if self.index < len(self.letters):
+            value = self.letters[self.index]
+            self.index += 1
+            return value
+
+        raise StopIteration
+letters = LetterIterator()
+
+for letter in letters:
+    print(letter)
