@@ -86,3 +86,21 @@ class Counter:
 counter = Counter()
 for i in counter:
     print(i)
+
+print("============ 2 Custom iterator============")
+class Counter:
+    def __init__(self):
+        self.current =1
+    def __iter__(self):
+        return self
+    def __next__(self):
+        for i in range(10,60):
+            if self.current <=60:
+                value =  self.current
+                self.current +=10
+                return value
+            else:
+                raise StopIteration
+counter = Counter()
+for i in counter:
+    print(i)
