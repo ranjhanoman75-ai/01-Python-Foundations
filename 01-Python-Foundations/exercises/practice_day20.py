@@ -189,8 +189,10 @@ print("========Developer info==========")
 developer = Developer("Ali ", 45000)
 print("The total salary of developer with overtime: ",developer.calculate_salary(6000))
 developer.display_info()     
+print("========Intern Info=========")
 intern = Intern("Mukurram", 55000)
 print("The salary of intern is fixed: ",intern.calculate_salary())
 intern.display_info()   
-        
+
+
         
