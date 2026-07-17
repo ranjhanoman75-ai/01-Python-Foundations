@@ -36,3 +36,16 @@ while True:
         print(str)
     except StopIteration:
         break
+
+dict = {
+    "Name": "Noman",
+    "age": 33
+}
+iteratr = iter(dict)
+print(iteratr)
+while True:
+    try:
+        keys = next(iteratr)
+        print(keys)
+    except StopIteration:
+        break
