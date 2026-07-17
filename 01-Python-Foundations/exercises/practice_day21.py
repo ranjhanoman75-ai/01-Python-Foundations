@@ -36,7 +36,7 @@ while True:
         print(str)
     except StopIteration:
         break
-
+print("============program 4============")
 dict = {
     "Name": "Noman",
     "age": 33
@@ -47,5 +47,17 @@ while True:
     try:
         keys = next(iteratr)
         print(keys)
+    except StopIteration:
+        break
+print("=========Program 5===========")
+list = [34,53,34,74,75]
+for num in list:
+    print(num)
+iterator = iter(list)
+print(iterator)
+while True:
+    try:
+        item  = next(iterator)
+        print(item)
     except StopIteration:
         break
