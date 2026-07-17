@@ -70,4 +70,19 @@ while True:
         print(item)
     except StopIteration:
         break
-
+print("============Custom Iterator==========")
+class Counter:
+    def __init__(self):
+        self.current = 1
+    def __iter__(self):
+        return self
+    def __next__(self):
+        if self.current <=5:
+            value = self.current
+            self.current +=1
+            return value
+        else:
+            raise StopIteration
+counter = Counter()
+for i in counter:
+    print(i)
