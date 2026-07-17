@@ -15,3 +15,13 @@ while True:
         print(item)
     except StopIteration:
         break
+print("=============Program 2===============")
+Tuple = (2,4,5,2,5)
+iterator = iter(Tuple)
+print(iterator)
+while True:
+    try:
+        Num = next(iterator)
+        print(Num)
+    except StopIteration:
+        break
