@@ -61,3 +61,13 @@ while True:
         print(item)
     except StopIteration:
         break
+print("=============Program 6===============")
+data= "Python"
+iterator = iter(data)
+while True:
+    try:
+        item = next(iterator)
+        print(item)
+    except StopIteration:
+        break
+
