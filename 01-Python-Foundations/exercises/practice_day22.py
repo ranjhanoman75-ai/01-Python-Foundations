@@ -21,4 +21,19 @@ print(next(d))
 print(next(d))
 print(next(d))
 
-    
+print("=========3 program=============")
+def num():
+    data = [2,4,52,543,6,7]
+    for i in data:
+        if i%2 ==0:
+            print("Its even number")
+            yield i
+        else:
+            print("Its odd number")
+            yield i
+g = num()
+print(next(g))
+print(next(g))    
+print(next(g))
+print(next(g))
+print(next(g))
