@@ -8,5 +8,17 @@ gen = numbers()
 print(next(gen))
 print(next(gen))
 print(next(gen))
-for i in range(1,5):
-    print(i)
+
+print("===========2 program========")
+def num():
+    for i in range(5):
+        yield  {i}
+print(num())
+d = num()
+print(next(d))
+print(next(d))
+print(next(d))
+print(next(d))
+print(next(d))
+
+    
