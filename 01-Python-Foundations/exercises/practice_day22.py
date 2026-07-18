@@ -27,13 +27,12 @@ def num():
     for i in data:
         if i%2 ==0:
             print("Its even number")
-            yield i
+            yield i 
         else:
             print("Its odd number")
             yield i
-g = num()
-print(next(g))
-print(next(g))    
-print(next(g))
-print(next(g))
-print(next(g))
+
+for value in num():
+    print(value)
+
+
