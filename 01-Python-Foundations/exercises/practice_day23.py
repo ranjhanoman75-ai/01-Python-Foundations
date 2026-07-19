@@ -46,3 +46,24 @@ def decorator(func):
 def login():
     print("Login Successfull")
 login()
+print("===========Execution Logger===========")
+def decorator(func):
+    def wrap():
+        print("Function started....")
+
+        func()
+
+        print("Function finished")
+    return wrap
+@decorator
+def calculate_salary():
+    print("salary calculated")
+calculate_salary()
+@decorator
+def calculat_fee():
+    print("Fee calculated")
+calculat_fee()
+@decorator
+def calculate_marks():
+    print("marks calculated")
+calculate_marks()
