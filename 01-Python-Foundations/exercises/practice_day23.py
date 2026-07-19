@@ -82,4 +82,23 @@ def decorator(func):
 def login():
     print("login successfull")
 login()
-        
+print("================Bank Transaction decorator==========")
+def decorator(func):
+    def wrapper():
+        print("=========Transaction Started===========")   
+
+        func()
+
+        print("==========Transaction Ended============")
+    return wrapper
+@decorator
+def deposit():
+    print("Amount deposited")
+deposit()
+def withdraw():
+    print("Amount Withdrawn")
+withdraw()
+@decorator
+def check_balance():
+    print("Balance checked")
+check_balance()
