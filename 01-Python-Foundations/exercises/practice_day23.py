@@ -20,3 +20,16 @@ def run(func):
 run(greet)
 run(login)
 run(logout)
+def decorator(func):
+    def wrapper():
+        print("start")
+
+        func()
+
+        print("end")
+    return wrapper
+@decorator
+def welcome():
+    print("Hello Noman")
+
+welcome()
