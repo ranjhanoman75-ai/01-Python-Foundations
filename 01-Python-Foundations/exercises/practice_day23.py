@@ -70,13 +70,14 @@ calculate_marks()
 
 print("==========Authentication Decorator============")
 def decorator(func):
-    log_in = True
+    log_in = False
     def wrapper():
-        if log_in == True:
+        if log_in :
             print("Access granted")
+            func()
         else:
             print("Access denied")
-        func()
+        
     return wrapper
 @decorator
 def login():
