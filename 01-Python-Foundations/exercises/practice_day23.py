@@ -67,3 +67,19 @@ calculat_fee()
 def calculate_marks():
     print("marks calculated")
 calculate_marks()
+
+print("==========Authentication Decorator============")
+def decorator(func):
+    log_in = True
+    def wrapper():
+        if log_in == True:
+            print("Access granted")
+        else:
+            print("Access denied")
+        func()
+    return wrapper
+@decorator
+def login():
+    print("login successfull")
+login()
+        
