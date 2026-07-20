@@ -25,4 +25,17 @@ class mycontext:
         print("Exception value",exc)
 
 with mycontext():
-    print(10/0)
+    print(10/2)
+print("===========Bank Locker Analog============")
+class locker:
+    def __enter__(self):
+        print("Locker openning....")
+        return self
+    def __exit__(self, exc_type, exc, tb):
+        print("Locker Closing.....")
+
+    def withdraw(self):
+        print("Amount withdrawn.....")
+
+with locker() as lcker:
+    lcker.withdraw()
