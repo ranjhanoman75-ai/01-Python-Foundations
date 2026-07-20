@@ -51,3 +51,14 @@ class database:
         print("Executing Query...")
 with database() as db:
     db.execute()
+print("===========Printer=========")
+class printer:
+    def __enter__(self):
+        print("Printer started....")
+        return self
+    def __exit__(self, exc_type, exc, tb):
+        print("Printer closed...")
+    def report(self):
+        print("Printing Report")
+with printer() as pt:
+    pt.report()
