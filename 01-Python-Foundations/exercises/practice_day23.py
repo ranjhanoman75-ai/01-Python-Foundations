@@ -96,6 +96,7 @@ def decorator(func):
 def deposit():
     print("Amount deposited")
 deposit()
+@decorator
 def withdraw():
     print("Amount Withdrawn")
 withdraw()
