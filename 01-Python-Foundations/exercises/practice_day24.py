@@ -39,3 +39,15 @@ class locker:
 
 with locker() as lcker:
     lcker.withdraw()
+
+print("===========Database Connection===========")
+class database:
+    def __enter__(self):
+        print("Database connected........")
+        return self
+    def __exit__(self, exc_type, exc, tb):
+        print("Database closing.......")
+    def execute(self):
+        print("Executing Query...")
+with database() as db:
+    db.execute()
