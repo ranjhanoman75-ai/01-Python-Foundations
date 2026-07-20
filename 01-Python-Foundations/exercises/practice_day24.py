@@ -62,3 +62,16 @@ class printer:
         print("Printing Report")
 with printer() as pt:
     pt.report()
+print("=========Calculator=========")
+class calculator:
+    def __enter__(self):
+        print("calculator started...")
+        return self
+    def __exit__(self, exc_type, exc, tb):
+        print("calculator closed...")
+    def add(self,a,b):
+        return a+b
+    def subtract(self,a,b):
+        return a-b
+with calculator() as cl:
+    print("Addition = ",cl.add(3,5))
