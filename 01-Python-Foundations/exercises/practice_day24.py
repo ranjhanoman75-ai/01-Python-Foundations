@@ -75,3 +75,23 @@ class calculator:
         return a-b
 with calculator() as cl:
     print("Addition = ",cl.add(3,5))
+print("========Database Connection Mangager========")
+class DatabaseConnection:
+
+    def __enter__(self):
+        self.connect()
+        return self
+
+    def __exit__(self, exc_type, exc, tb):
+        self.disconnect()
+
+    def connect(self):
+        print("Connecting Database...")
+
+    def disconnect(self):
+        print("Disconnecting Database...")
+
+    def execute(self):
+        print("Executing Query...")
+with DatabaseConnection() as db:
+    db.execute()
