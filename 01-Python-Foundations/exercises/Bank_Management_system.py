@@ -1,4 +1,6 @@
 print("============Bank Management System========")
+import logging
+import logging_config
 class Bank:
     def __init__(self,account_no,holder_name,balance):
         self.__account_no = account_no
@@ -9,23 +11,33 @@ class Bank:
         if amount>0:
             self.__balance +=amount
             print("Amount deposited successfully")
+            logging.info(
+    "Amount deposited successfully: %.2f. Your balance is now: %.2f",
+    amount,
+    self.__balance
+)
             print("Your balance after deposit is: ",self.__balance)
         else:
             print("Invalid amount")
+            logging.error("Wrong amount : {amount} must be positive {balance}")
     def withdraw(self,amount):
         print("Your current balance is: ",self.__balance)
         if amount<= self.__balance:
             self.__balance -=amount
             print("Amount withdraw successfully")
+            logging.info("Amount : %2f withdrawn successfully. ")
             print("Your balance after withdraw is: ",self.__balance)
         else:
             print("Invalid inputs")
+            logging.error("Invalid amount: %.2f.available balance: %2f", amount,self.__balance)
     def check_balance(self):
+        logging.info("Your balance is: %2f ",self.__balance)
         return self.__balance
     def display_info(self):
         print("Account Number:", self.__account_no)
         print("Holder Name:", self.__holder_name)
         print("Balance:", self.__balance)
+        logging.info("Acount Number is: '{account_no}' added")
 bank = Bank(123456, "John Doe", 1000)
 
 while True:
