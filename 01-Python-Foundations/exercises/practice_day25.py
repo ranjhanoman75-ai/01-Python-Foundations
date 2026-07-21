@@ -1,18 +1,16 @@
-print("===========Logging Info=================")
+from pathlib import Path
 import logging
-logging.basicConfig(level=logging.DEBUG)
-logging.debug("Debug")
-logging.info("Info")
-logging.error("Error")
-logging.warning("warning")
-logging.critical("critical error")
 
-print("=======Logging save to file=========")
-import logging 
+LOG_FILE = Path(__file__).parent / "app.log"
+
 logging.basicConfig(
-    filename="app.log",
-    level=logging.DEBUG
+    filename=LOG_FILE,
+    level=logging.DEBUG,
+    format="%(asctime)s - %(levelname)s - %(message)s",
+    force=True          # <-- Important
 )
-logging.info("Application started")
-logging.warning("Low memory")
-logging.error("Database connection failed")
+
+logging.info("Application Started")
+logging.error("Database Failed")
+
+logging.shutdown()      # Flush logs to disk
