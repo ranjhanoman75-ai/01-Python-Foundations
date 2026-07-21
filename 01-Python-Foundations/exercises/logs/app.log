@@ -1,0 +1,5 @@
+2026-07-21 09:16:39,882 | INFO | Student Registered
+2026-07-21 09:16:39,883 | WARNING | Invalid Password
+2026-07-21 09:16:39,883 | ERROR | Student Record Not Found
+2026-07-21 09:20:27,308 | INFO | Student Added -> Name:nomna, Roll:24, Course:agentic ai
+2026-07-21 09:20:58,777 | INFO | Student Management System Closed.
